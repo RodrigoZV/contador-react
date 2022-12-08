@@ -11,6 +11,10 @@ setNumero(numero + 1)
 function diminuir(){
 setNumero(numero - 1)
 }
+// papapapapapapapap
+function zerar(){
+    setNumero(numero - numero)
+}
 
 return (
 <section>
@@ -18,7 +22,7 @@ return (
 <p>{numero}</p>
 <button onClick={aumentar}>Mais</button>
 <button onClick={diminuir}>Menos</button>
-
+<button onClick={zerar}>Zerar</button>
 </section>
 )}
 export default App;
