@@ -11,7 +11,7 @@ setNumero(numero + 1)
 function diminuir(){
 setNumero(numero - 1)
 }
-// papapapapapapapap
+// dsgrds
 function zerar(){
     setNumero(numero - numero)
 }
